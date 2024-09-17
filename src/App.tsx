@@ -17,6 +17,8 @@ function App() {
     client.models.Todo.create({ content: window.prompt("Todo content") });
   }
 
+  console.log("abcsa")
+
   return (
     <main>
       <h1>My todos</h1>
